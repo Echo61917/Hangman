@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.hangman.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="30.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="A" />
+            <Button layoutX="74.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="B" />
+            <Button layoutX="119.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="C" />
+            <Button layoutX="164.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="D" />
+            <Button layoutX="210.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="E" />
+            <Button layoutX="258.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="F" />
+            <Button layoutX="306.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="G" />
+            <Button layoutX="353.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="H" />
+            <Button layoutX="396.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="I" />
+            <Button layoutX="435.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="J" />
+            <Button layoutX="475.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="K" />
+            <Button layoutX="520.0" layoutY="75.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="L" />
+            <Button layoutX="481.0" layoutY="16.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="M" />
+            <Button layoutX="509.0" layoutY="16.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="N" />
+            <Button layoutX="554.0" layoutY="16.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="O" />
+            <Button layoutX="12.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="P" />
+            <Button layoutX="72.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Q" />
+            <Button layoutX="129.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="R" />
+            <Button layoutX="193.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="S" />
+            <Button layoutX="257.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="T" />
+            <Button layoutX="315.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="U" />
+            <Button layoutX="376.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="V" />
+            <Button layoutX="439.0" layoutY="115.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="W" />
+            <Button layoutX="12.0" layoutY="150.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="X" />
+            <Button layoutX="72.0" layoutY="150.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Y" />
+            <Button layoutX="129.0" layoutY="150.0" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Z" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
